@@ -1,7 +1,7 @@
 package entities;
 
 public class Aresta<TIPO> {
-	// nível de amizade
+	// nível de relacionamento
 	private Double peso;
 	// relações de começo
 	private Vertice<TIPO> inicio;

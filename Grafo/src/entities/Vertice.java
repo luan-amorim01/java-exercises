@@ -21,11 +21,11 @@ public class Vertice<TIPO> {
 		this.dado = dado;
 	}	
 
-	public void adicoinarArestaEntrada(Aresta<TIPO> aresta) {
+	public void adicionarArestaEntrada(Aresta<TIPO> aresta) {
 		this.arestasEntrada.add(aresta);
 	}
 
-	public void setArestaSaida(Aresta<TIPO> aresta) {
+	public void adicionarArestaSaida(Aresta<TIPO> aresta) {
 		this.arestasSaida.add(aresta);
 	}
 	
