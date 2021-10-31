@@ -19,6 +19,8 @@ public class Program {
 		grafo.adicionarAresta(1.0, "Luan", "Diva");
 		grafo.adicionarAresta(2.0, "Diva", "Iuri");
 		grafo.adicionarAresta(3.0, "Diva", "Luan");
+		
+		grafo.buscaEmLArgura();
 	}
 
 }
